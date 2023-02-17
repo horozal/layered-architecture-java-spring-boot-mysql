@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LayeredarchitecturetemplateApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LayeredarchitecturetemplateApplication.class, args);
+		SpringApplication.run(StartApplication.class, args);
 	}
 
 }
