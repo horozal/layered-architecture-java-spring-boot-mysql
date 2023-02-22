@@ -12,7 +12,7 @@
 	<artifactId>opensmartclide</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>layeredarchitecturetemplate</name>
-	<description>Project template for Layered Architecture with Spring Boot Java and MySQL</description>
+	<description>Project template for Layered Architecture in Java with Spring Boot and MySQL</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
