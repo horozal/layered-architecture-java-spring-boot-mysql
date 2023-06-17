@@ -11,16 +11,16 @@ It demonstrates a typical layered architecture with four layers:
 
 2. Application/Service Layer:
 - responsible for encapsulating the business logic and coordinating data flow between the presentation layer (e.g., controllers or user interfaces) and the data access layer (e.g., repositories or databases).
-- implemented in the ```service``` package
+- implemented in the ```service``` package.
 
 3. Domain Layer/Doman Model:
 - represents domain-specific concepts and business rules of the system.
 - defines entities, their relationships, and the operations performed on them.
-- implemented in the ```model``` package
+- implemented in the ```model``` package.
 
 4. Data Access Layer:
 - handles the storage and retrieval of data from various data sources such as databases, file systems or external services and the repository handles data access operations.
-- implemented in the ```repository``` package
+- implemented in the ```repository``` package.
 
 ### Packages in this project:
 
