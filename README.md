@@ -24,10 +24,10 @@ It demonstrates a typical layered architecture with four layers:
 
 ### Packages in this project:
 
-1. Model: ```SampleEntity``` class represents a sample entity with a name.
+1. ```model```: The ```SampleEntity``` class represents a sample entity with a name.
 
-2. Repository: ```EntityRepository``` interface extends the ```JpaRepository``` interface, which provides generic CRUD (create, read, update, delete) operations for the ```SampleEntity``` type.
+2. ```Repository```: The ```EntityRepository``` interface extends the ```JpaRepository``` interface, which provides generic CRUD (create, read, update, delete) operations for the ```SampleEntity``` type.
 
-3. Service: ```EntityService``` class encapsulates business logic related to entities. It has a dependency on ```EntityRepository``` to perform data access operations.
+3. ```service```: The ```EntityService``` class encapsulates business logic related to entities. It has a dependency on ```EntityRepository``` to perform data access operations.
 
-4. Controller: ```EntityController``` class handles incoming HTTP requests related to entities. It has a dependency on the ```EntityService``` class to perform business logic operations. It accepts a POST request to the ```/person``` endpoint with a name in the request body.
+4. ```controller```: The ```EntityController``` class handles incoming HTTP requests related to entities. It has a dependency on the ```EntityService``` class to perform business logic operations. It accepts a POST request to the ```/person``` endpoint with a name in the request body.
