@@ -30,4 +30,4 @@ It demonstrates a typical layered architecture with four layers:
 
 3. Service: ```EntityService``` class encapsulates business logic related to entities. It has a dependency on ```EntityRepository``` to perform data access operations.
 
-4. Controller: ```EntityController``` class handles incoming HTTP requests related to entities. It has a dependency on the ```EntityService``` class to perform business logic operations.
+4. Controller: ```EntityController``` class handles incoming HTTP requests related to entities. It has a dependency on the ```EntityService``` class to perform business logic operations. It accepts a POST request to the ```/person``` endpoint with a name in the request body.
