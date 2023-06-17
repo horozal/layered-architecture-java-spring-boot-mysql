@@ -19,15 +19,15 @@ It demonstrates a typical layered architecture with four layers:
 - implemented in the ```model``` package.
 
 4. Data Access Layer:
-- handles the storage and retrieval of data from various data sources such as databases, file systems or external services and the repository handles data access operations.
+- handles data access operations, i.e., the storage and retrieval of data from various data sources such as databases, file systems or external services.
 - implemented in the ```repository``` package.
 
 ### Packages in this project:
 
-1. ```model```: The ```SampleEntity``` class represents a sample entity with a name.
+1. ```model``` package consists of the ```SampleEntity``` class that represents a sample entity with a name.
 
-2. ```Repository```: The ```EntityRepository``` interface extends the ```JpaRepository``` interface, which provides generic CRUD (create, read, update, delete) operations for the ```SampleEntity``` type.
+2. ```repository``` package consists of the ```EntityRepository``` interface that extends the ```JpaRepository``` interface, which provides generic CRUD (create, read, update, delete) operations for the ```SampleEntity``` type.
 
-3. ```service```: The ```EntityService``` class encapsulates business logic related to entities. It has a dependency on ```EntityRepository``` to perform data access operations.
+3. ```service``` package consists of the ```EntityService``` class that encapsulates business logic related to entities. It has a dependency on ```EntityRepository``` to perform data access operations.
 
-4. ```controller```: The ```EntityController``` class handles incoming HTTP requests related to entities. It has a dependency on the ```EntityService``` class to perform business logic operations. It accepts a POST request to the ```/person``` endpoint with a name in the request body.
+4. ```controller```package consists of the ```EntityController``` class that handles incoming HTTP requests related to entities. It has a dependency on the ```EntityService``` class to perform business logic operations. It accepts a POST request to the ```/person``` endpoint with a name in the request body.
