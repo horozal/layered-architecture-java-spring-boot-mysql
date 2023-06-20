@@ -1,7 +1,7 @@
 # layered-architecture-java-spring-boot-mysql
 ### Template for a layered architecture in Java with Spring Boot and MySQL.
 
-The project contains dependencies for Java 11, Spring Web, Spring Data JPA and MySQL Driver, and includes a Maven plugin.
+The project contains dependencies for Java 17, Spring Web, Spring Data JPA and MySQL Driver, and includes a Maven plugin.
 
 It demonstrates a typical layered architecture with four layers:
 
@@ -13,7 +13,7 @@ It demonstrates a typical layered architecture with four layers:
 - responsible for encapsulating the business logic and coordinating data flow between the presentation layer (e.g., controllers or user interfaces) and the data access layer (e.g., repositories or databases)
 - implemented in the ```service``` package
 
-3. Domain Layer/Doman Model:
+3. Domain Layer/Domain Model:
 - represents domain-specific concepts and business rules of the system
 - defines entities, their relationships, and the operations performed on them
 - implemented in the ```model``` package
