@@ -14,7 +14,7 @@
 	<name>layered</name>
 	<description>Template for a layered architecture using Java, Spring Boot and MySQL </description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
